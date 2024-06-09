@@ -1,4 +1,5 @@
 newspaper3k==0.2.8
 Requests==2.31.0
 streamlit==1.31.0
-lxml lxml_html_clean
+lxml 
+lxml_html_clean
