@@ -34,7 +34,7 @@ set_background_image(image_path)
 c1, c2 = st.columns([0.32, 2])
 
 with c1:
-    st.image("images/newspaper.png", width=85)
+    st.image("newspaper.png", width=85)
 
 with c2:
     st.title("Article & Blog Summarizer")
