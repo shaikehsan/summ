@@ -4,6 +4,7 @@ import requests
 import time
 from newspaper import Article
 import base64
+import os
 
 # Function to set background image
 def set_background_image(image_path):
@@ -25,7 +26,9 @@ def set_background_image(image_path):
         st.write(f"Error setting background image: {e}")
 
 # Set the background image
-set_background_image("sum back.avif")
+# Ensure you provide the correct absolute path to the image file
+image_path = os.path.abspath("sum back.avif")
+set_background_image(image_path)
 
 # Page title layout
 c1, c2 = st.columns([0.32, 2])
